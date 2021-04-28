@@ -10,7 +10,7 @@ import Input from '../Input/Input';
 import './Chat.css';
 import { useHistory } from "react-router";
 
-const ENDPOINT = 'http://localhost:5000';
+const ENDPOINT = 'https://tuandat-chatrealtime.herokuapp.com/';
 
 let socket;
 
