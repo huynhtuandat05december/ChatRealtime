@@ -13,7 +13,7 @@ const server = http.createServer(app);
 
 const io = socketio(server, {
     cors: {
-        origin: 'https://tuandat-chatrealtime.herokuapp.com/',
+        // origin: 'https://tuandat-chatrealtime.herokuapp.com/',
         methods: ["GET", "POST"],
         credentials: true
     }
