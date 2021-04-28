@@ -2,17 +2,16 @@ import {
     BrowserRouter as Router,
     Switch,
     Route,
-    Link
 } from "react-router-dom";
 import './App.css';
-import Chat from "./components/Chat";
+import Chat from "./components/Chat/Chat";
 import Login from "./components/Login";
 
 function App() {
     return (
         <Router>
             <Switch>
-                <Route path='/' component={Login} />
+                <Route exact path='/' component={Login} />
                 <Route path='/chat' component={Chat} />
             </Switch>
 
